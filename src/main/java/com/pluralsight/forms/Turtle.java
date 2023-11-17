@@ -422,7 +422,7 @@ public class Turtle {
      * @param x The new x location for the turtle. 0 is the center of the screen, bigger numbers to the right
      * @param y The new y location for the turtle. 0 is the center of the screen, bigger numbers lower down
      */
-    protected void cornerGoTo(double x, double y) {
+    public void cornerGoTo(double x, double y) {
         double ox = this.location.x;
         double oy = this.location.y;
         this.location.x = x;
